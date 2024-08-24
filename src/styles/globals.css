@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.destaque{
+    background-color: #312e81;
+    color: #fff;
+}
+
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.inputDados{
+    border: 1px solid black;
+    padding: 0.25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.buttonDados{
+    background-color: #312e81;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    margin: 0.8rem 0;
+    cursor: pointer;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gridLinhaTitulo{
+    background-color: rgb(49, 46, 129);
+    padding: 0.25rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.gridTitulo{
+    width: 19%;
+}
+
+.gridLinhaDados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gridLinhas{
+    display: flex;
+    width: 100%;
+    padding: 2px 0;
+    border-bottom: 1px solid #999;
+}
+
+.gridLinha{
+    width: 19%;
+}
